@@ -1,0 +1,19 @@
+{
+  "name": "caixa-soma-extrato",
+  "version": "1.0.0",
+  "description": "========>  https://gabrielvelasco.github.io/Caixa-Soma-Extrato/ <========",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielVelasco/Caixa-Soma-Extrato.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielVelasco/Caixa-Soma-Extrato/issues"
+  },
+  "homepage": "https://github.com/GabrielVelasco/Caixa-Soma-Extrato#readme"
+}
