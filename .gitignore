@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Compiled output
+dist/
+build/
+out/
+
+# Environment files
+.env
+
+# macOS system files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+
+# Cache files
+*.cache

@@ -1,0 +1,58 @@
+<!-- USED TO DISPLAY THE FORM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SOMA SAIDAS EXRATO CAIXA</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Search engines... -->
+	<meta name="description" content="Soma Extrato Conta Caixa">
+
+	<!-- web site icon -->
+	<link rel="icon" href="https://www.caixa.gov.br/Style%20Library/images/favicon.ico" type="image/x-icon">
+
+	<!-- Google stats? -->
+
+	<!-- css style -->
+	<link rel="stylesheet" href="style/appStyle.css" type="text/css"> 
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="imgContainer">
+		<img src="https://www.caixa.gov.br/Style%20Library/images/logo-caixa-branco.png" alt="Elemento síntese da marca CAIXA">
+	</div>
+
+	<div class="main">
+		<div>
+			<form id="formTest" action="#/API/endpoint">
+				<div id="div2">
+					<label for="comment">Tipo de saída a ser somada: </label>
+					<select id="transactionType">
+						<option value="todos">TODOS</option>
+						<option value="envioPix">ENVIO PIX</option>
+						<option value="compraCartao">COMPRA CARTAO</option>
+					</select>
+				</div>
+				<hr />
+				<div id="div2">
+					<label>Selecione arquivo .txt da Caixa: </label>
+					<input placeholder="Subir TXT" type="file" id="fileInput">
+				</div>
+				<hr />
+				<div id="div1"><button type="submit">SOMAR SAIDAS</button></div>
+				<hr />
+				<div id="sumContainer">
+					<h2 id="sumResult"></h2>
+				</div>
+			</form>
+		</div>
+	</div>
+
+    <script src="src/app.js"></script>
+</body>
+
+</html>
