@@ -2,11 +2,11 @@
 
 # Caixa Soma Extrato
 
-Um aplicativo web para somar transações (atualmente apenas despesas) dos extratos da Caixa Econômica Federal.
+Um projeto pessoal para praticar HTML/CSS/JS (aplicativo web) para somar transações (atualmente apenas despesas) dos extratos da Caixa Econômica Federal.
 
 ## Motivação
 
-No final de cada mês, eu costumava calcular manualmente as despesas totais do meu extrato da Caixa Econômica Federal, focando especificamente em compras com cartão de débito e transações PIX. Para tornar esse processo mais eficiente, criei este aplicativo web. Ele me permite fazer o upload do arquivo do extrato, selecionar o tipo de transação (PIX ou Cartão) e calcular as despesas totais com apenas alguns cliques.
+No final de cada mês, eu costumava calcular manualmente as despesas totais do meu extrato da Caixa Econômica Federal, focando especificamente em compras com cartão de débito (supermercados e similares) e transações PIX (ifood, compras onlies e similares). Para tornar esse processo mais eficiente, criei este aplicativo web. Ele me permite fazer o upload do arquivo do extrato, selecionar o tipo de transação (PIX ou Cartão) e calcular as despesas totais com apenas alguns cliques.
 
 ## Uso
 
