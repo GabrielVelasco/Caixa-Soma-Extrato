@@ -6,7 +6,7 @@ const form = document.querySelector("#formTest");
 const sumCont = document.querySelector("#sumResult");
 
 const pixTransactionDescription = "ENVIO PIX" 
-const cartaoTransactionDescription = "CP DB"
+const cartaoTransactionDescription = "CP"
 
 const todosSelectName = form[0][0].innerHTML.toLowerCase().replace(/\s/g, '');
 const pixSelectName = form[0][1].innerHTML.toLowerCase().replace(/\s/g, '');
